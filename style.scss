@@ -1,0 +1,318 @@
+.web {
+    width: 90%;
+    height: 100vh;
+    margin-left: 70px;
+
+    .coner {
+        .logo {
+            background: rgb(10, 14, 78);
+            display: flex;
+
+            h1 {
+                margin-left: 10px;
+            }
+
+            .menu {
+                display: flex;
+
+                ul {
+                    margin-top: 10px;
+                    margin-left: 250px;
+                    list-style: none;
+                    display: flex;
+
+                    .li1 {
+                        color: blue;
+                    }
+
+                    li {
+                        color: darkgrey;
+                        margin-left: 50px;
+                    }
+                }
+
+                button {
+                    margin-top: 10px;
+                    margin-left: 370px;
+                    width: 100px;
+                    height: 30px;
+                    border: 1px solid red;
+                    color: red;
+                    background: none;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .img {
+            width: 100%;
+            height: 400px;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBmZuzKo3vHg4QukgJnnPpodFygSrCVRV_Q&usqp=CAU);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .text {
+                margin-left: 410px;
+                padding-top: 100px;
+                text-align: center;
+
+                p {
+                    margin: 0;
+                    width: 400px;
+                    color: darkgrey;
+
+                    .red {
+                        border-bottom: 1px solid #fff;
+                        color: #fff;
+                    }
+
+                }
+
+                h1 {
+                    padding-left: 10px;
+                    margin: 0;
+                    width: 400px;
+                    color: #fff;
+                }
+            }
+
+            p {
+                margin-top: 10px;
+                text-align: center;
+                color: #fff;
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                margin-top: 10px;
+                margin-left: 530px;
+                border: none;
+                color: #fff;
+                background: blue;
+            }
+        }
+
+        .ul {
+            height: 50px;
+            padding: 10px;
+            list-style: none;
+            display: flex;
+            background: beige;
+
+            li {
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .coner2 {
+        width: 100%;
+        height: 420px;
+        background: #fff;
+        display: flex;
+
+        .text {
+            margin-top: 50px;
+
+            h1 {
+                color: blueviolet;
+                width: 600px;
+                font-size: 50px;
+            }
+
+            p {
+                width: 400px;
+                margin-top: 20px;
+            }
+
+            button {
+                width: 200px;
+                height: 40px;
+                border-radius: 20px;
+                border: none;
+                color: #fff;
+                background: blueviolet;
+                margin-top: 20px;
+            }
+        }
+
+        img {
+            width: 500px;
+            height: 400px;
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+    }
+
+    .coner3 {
+        width: 100%;
+        height: 450px;
+        display: flex;
+
+        .text {
+            color: #fff;
+            width: 700px;
+            padding-top: 90px;
+            margin-left: 90px;
+
+            h1 {
+                color: black;
+            }
+
+            p {
+                color: black;
+                margin-top: 20px;
+            }
+
+            button {
+                width: 200px;
+                height: 40px;
+                border: none;
+                background: blue;
+                color: #fff;
+                margin-top: 20px;
+            }
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            margin-top: 50px;
+        }
+    }
+
+    .coner4 {
+        .text {
+            text-align: center;
+        }
+
+        .cardContainer {
+            display: flex;
+            justify-content: center;
+            grid-gap: 20px;
+            // padding: 50px;
+
+            .card {
+                width: 950px;
+                height: 200px;
+                text-align: center;
+                padding: 20px;
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.coner5 {
+    width: 100%;
+    height: 100vh;
+
+    .text {
+        text-align: center;
+        padding-top: 100px;
+
+        h1 {
+            color: #000;
+            width: 500px;
+            margin-left: 360px;
+        }
+    }
+
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+        grid-gap: 20px;
+        padding: 50px;
+
+        .card {
+            background: blue;
+            color: #fff;
+            width: 950px;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+
+            p {
+                font-size: 10px;
+            }
+
+            .h1 {
+                text-align: left;
+                font-size: 20px;
+                color: #000;
+            }
+        }
+
+        .card1 {
+            background: green;
+            color: #fff;
+            width: 950px;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+
+            p {
+                font-size: 10px;
+            }
+
+            .h1 {
+                text-align: left;
+                font-size: 20px;
+                color: #000;
+            }
+        }
+
+        .card2 {
+            background: tomato;
+            color: #fff;
+            width: 950px;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+
+            p {
+                font-size: 10px;
+            }
+
+            .h1 {
+                text-align: left;
+                font-size: 20px;
+                color: #000;
+            }
+        }
+    }
+
+}
+
+.coner6 {
+    background: rgb(9, 9, 73);
+    width: 100%;
+    height: 400px;
+
+    button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: rgb(52, 95, 212);
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 500px;   
+    }
+
+    ul {
+        margin-top: 30px;
+        display: flex;
+        list-style: none;
+
+        li {
+            color: #fff;
+            margin-left: 150px;
+        }
+    }
+}

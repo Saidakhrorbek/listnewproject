@@ -1,0 +1,333 @@
+.web {
+  width: 90%;
+  height: 100vh;
+  margin-left: 70px;
+}
+
+.web .coner .logo {
+  background: #0a0e4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web .coner .logo h1 {
+  margin-left: 10px;
+}
+
+.web .coner .logo .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web .coner .logo .menu ul {
+  margin-top: 10px;
+  margin-left: 250px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web .coner .logo .menu ul .li1 {
+  color: blue;
+}
+
+.web .coner .logo .menu ul li {
+  color: darkgrey;
+  margin-left: 50px;
+}
+
+.web .coner .logo .menu button {
+  margin-top: 10px;
+  margin-left: 370px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid red;
+  color: red;
+  background: none;
+  border-radius: 20px;
+}
+
+.web .coner .img {
+  width: 100%;
+  height: 400px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBmZuzKo3vHg4QukgJnnPpodFygSrCVRV_Q&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.web .coner .img .text {
+  margin-left: 410px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.web .coner .img .text p {
+  margin: 0;
+  width: 400px;
+  color: darkgrey;
+}
+
+.web .coner .img .text p .red {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.web .coner .img .text h1 {
+  padding-left: 10px;
+  margin: 0;
+  width: 400px;
+  color: #fff;
+}
+
+.web .coner .img p {
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.web .coner .img button {
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 530px;
+  border: none;
+  color: #fff;
+  background: blue;
+}
+
+.web .coner .ul {
+  height: 50px;
+  padding: 10px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: beige;
+}
+
+.web .coner .ul li {
+  margin-left: 50px;
+}
+
+.web .coner2 {
+  width: 100%;
+  height: 420px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web .coner2 .text {
+  margin-top: 50px;
+}
+
+.web .coner2 .text h1 {
+  color: blueviolet;
+  width: 600px;
+  font-size: 50px;
+}
+
+.web .coner2 .text p {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.web .coner2 .text button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background: blueviolet;
+  margin-top: 20px;
+}
+
+.web .coner2 img {
+  width: 500px;
+  height: 400px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.web .coner3 {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.web .coner3 .text {
+  color: #fff;
+  width: 700px;
+  padding-top: 90px;
+  margin-left: 90px;
+}
+
+.web .coner3 .text h1 {
+  color: black;
+}
+
+.web .coner3 .text p {
+  color: black;
+  margin-top: 20px;
+}
+
+.web .coner3 .text button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: blue;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.web .coner3 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.web .coner4 .text {
+  text-align: center;
+}
+
+.web .coner4 .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 20px;
+}
+
+.web .coner4 .cardContainer .card {
+  width: 950px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.web .coner4 .cardContainer .card p {
+  font-size: 10px;
+}
+
+.coner5 {
+  width: 100%;
+  height: 100vh;
+}
+
+.coner5 .text {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.coner5 .text h1 {
+  color: #000;
+  width: 500px;
+  margin-left: 360px;
+}
+
+.coner5 .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 20px;
+  padding: 50px;
+}
+
+.coner5 .cardContainer .card {
+  background: blue;
+  color: #fff;
+  width: 950px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.coner5 .cardContainer .card p {
+  font-size: 10px;
+}
+
+.coner5 .cardContainer .card .h1 {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+
+.coner5 .cardContainer .card1 {
+  background: green;
+  color: #fff;
+  width: 950px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.coner5 .cardContainer .card1 p {
+  font-size: 10px;
+}
+
+.coner5 .cardContainer .card1 .h1 {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+
+.coner5 .cardContainer .card2 {
+  background: tomato;
+  color: #fff;
+  width: 950px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.coner5 .cardContainer .card2 p {
+  font-size: 10px;
+}
+
+.coner5 .cardContainer .card2 .h1 {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
+
+.coner6 {
+  background: #090949;
+  width: 100%;
+  height: 400px;
+}
+
+.coner6 button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #345fd4;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.coner6 ul {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.coner6 ul li {
+  color: #fff;
+  margin-left: 150px;
+}
+/*# sourceMappingURL=style.css.map */
